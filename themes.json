@@ -3,6 +3,11 @@
         "E.Des10":{
             "img": "E.Des10.jpg",
             "downloads": "[E.Des10.json, PhenomenaBlack.otf, E.Des10.jpg]"
+        },
+
+        "E.Des8":{
+            "img": "E.Des8.jpg",
+            "downloads": "[E.Des8.json, codebold.otf, The Hustle.ttf, E.Des8.jpg]"
         }
 }
 }
