@@ -1,0 +1,278 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "Parent" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "0",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "screen_height"
+        },
+        "backgroundColor" : "rgba(196, 84, 122, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "DateTimeInfo" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "frame" : {
+              "y" : "FB~135",
+              "x" : "FR~35",
+              "width" : "265",
+              "height" : "163"
+            },
+            "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "borderWidth" : "0",
+            "children" : {
+              "Stripe" : {
+                "rotate" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.8)",
+                "scale" : "0",
+                "frame" : {
+                  "y" : "76",
+                  "x" : "235",
+                  "width" : "15",
+                  "height" : "5"
+                },
+                "borderWidth" : "0",
+                "cornerRadius" : "2",
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "type" : "UIView",
+                "borderColor" : "rgba(255,255,255,0)",
+                "blurColor" : "dark",
+                "blurAlpha" : "0"
+              },
+              "TimeString" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "uppercase",
+                "textAlignment" : "NSTextAlignmentRight",
+                "frame" : {
+                  "y" : "75",
+                  "x" : "101",
+                  "width" : "150",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "3",
+                "data" : "[textHour]",
+                "borderWidth" : "0",
+                "fontSize" : "13",
+                "fontName" : "Avenir-Book",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "Today" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "capitalize",
+                "textAlignment" : "NSTextAlignmentRight",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "75",
+                  "width" : "180",
+                  "height" : "90"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(88, 121, 52, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "•[shortday]",
+                "borderWidth" : "0",
+                "fontSize" : "70",
+                "fontName" : "The Hustle.ttf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "Minutes" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentRight",
+                "frame" : {
+                  "y" : "97",
+                  "x" : "101",
+                  "width" : "150",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(88, 121, 52, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[minute]",
+                "borderWidth" : "0",
+                "fontSize" : "25",
+                "fontName" : "Arial-BoldMT",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "DateYear" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentRight",
+                "frame" : {
+                  "y" : "119",
+                  "x" : "101",
+                  "width" : "150",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[month] [dateordinal], [year]",
+                "borderWidth" : "0",
+                "fontSize" : "10",
+                "fontName" : "Avenir-Book",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          },
+          "WeatherBox" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "frame" : {
+              "y" : "FB~40",
+              "x" : "FR~48",
+              "width" : "265",
+              "height" : "65"
+            },
+            "backgroundColor" : "rgba(133, 133, 133, 0.4)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "borderWidth" : "0",
+            "children" : {
+              "WeatherIconSquare" : {
+                "scale" : "0",
+                "borderColor" : "rgba(255, 255, 255, 1.0)",
+                "rotate" : "0",
+                "frame" : {
+                  "y" : "13",
+                  "x" : "213",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+                "blurAlpha" : "0",
+                "type" : "UIView",
+                "borderWidth" : "1",
+                "children" : {
+                  "WeatherIcon" : {
+                    "frame" : {
+                      "y" : "-3",
+                      "x" : "-4",
+                      "width" : "48",
+                      "height" : "48"
+                    },
+                    "forecast" : "none",
+                    "type" : "WeatherIcon",
+                    "iconSet" : "clima"
+                  }
+                },
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "cornerRadius" : "0",
+                "blurColor" : "dark"
+              },
+              "Weatherstring" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "uppercase",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "8",
+                  "x" : "13",
+                  "width" : "160",
+                  "height" : "49"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "4",
+                "data" : "The weather outside is [condition] today and the temperature is around [temperature][degreeSymbol]. It feels like [feelslike][degreeSymbol].",
+                "borderWidth" : "0",
+                "fontSize" : "9",
+                "fontName" : "ArialRoundedMTBold",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                }
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "light"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
