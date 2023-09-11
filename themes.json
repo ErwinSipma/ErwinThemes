@@ -14,5 +14,10 @@
             "img": "E.Des9.jpg",
             "downloads": "[E.Des9.json, The Hustle.ttf, E.Des9.jpg]"
         },
+
+        "E.Des12":{
+            "img": "E.Des12.jpg",
+            "downloads": "[E.Des12.json, icon/weathericons, building.otf, PhenomenaBlack.otf, chocolatecake.ttf, GreatVibes-Regular.ttf, E.Des12.jpg]"
+        },
 }
 }
