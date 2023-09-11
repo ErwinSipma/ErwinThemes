@@ -203,7 +203,7 @@
                 },
                 "forecast" : "none",
                 "type" : "WeatherIcon",
-                "iconSet" : "icon"
+                "iconSet" : "Des12Weather"
               },
               "Temp" : {
                 "borderColor" : "rgba(255,255,255,1)",
