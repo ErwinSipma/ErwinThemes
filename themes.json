@@ -44,5 +44,10 @@
             "img": "E.Des7.jpg",
             "downloads": "[E.Des7.json, digital-7.ttf, calendar.png, E.Des7.jpg]"
         },
+
+        "E.Des1":{
+            "img": "E.Des1.jpg",
+            "downloads": "[E.Des1.json, E.Des1.jpg]"
+        },
     }
 }
