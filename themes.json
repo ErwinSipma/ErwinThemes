@@ -19,5 +19,10 @@
             "img": "E.Des12.jpg",
             "downloads": "[E.Des12.json, icon/weathericons, building.otf, PhenomenaBlack.otf, chocolatecake.ttf, GreatVibes-Regular.ttf, E.Des12.jpg]"
         },
-}
+
+        "E.Des11":{
+            "img": "E.Des11.jpg",
+            "downloads": "[E.Des11.json, Groovy_Fast.ttf, E.Des11.jpg]"
+        },
+    }
 }
