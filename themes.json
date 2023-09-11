@@ -54,5 +54,10 @@
             "img": "E.Des4.jpg",
             "downloads": "[E.Des4.json, E.Des4.jpg]"
         },
+
+        "E.Des6":{
+            "img": "E.Des6.jpg",
+            "downloads": "[E.Des6.json, building.otf, SpicyRice-Regular.ttf, E.Des6.jpg]"
+        },
     }
 }
