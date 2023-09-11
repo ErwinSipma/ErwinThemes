@@ -24,5 +24,25 @@
             "img": "E.Des11.jpg",
             "downloads": "[E.Des11.json, Groovy_Fast.ttf, E.Des11.jpg]"
         },
+
+        "E.Des2":{
+            "img": "E.Des2.jpg",
+            "downloads": "[E.Des2.json, E.Des2.jpg]"
+        },
+
+        "E.Des3":{
+            "img": "E.Des3.jpg",
+            "downloads": "[E.Des3.json, PhenomenaBlack.otf, Signerica_Fat.ttf, E.Des3.jpg]"
+        },
+
+        "E.Des5":{
+            "img": "E.Des5.jpg",
+            "downloads": "[E.Des5.json, digital-7.ttf, Planodes5/weathericons, Signerica_Fat.ttf, E.Des5.jpg]"
+        },
+
+        "E.Des7":{
+            "img": "E.Des7.jpg",
+            "downloads": "[E.Des7.json, digital-7.ttf, calendar.png, E.Des7.jpg]"
+        },
     }
 }
