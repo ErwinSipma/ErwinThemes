@@ -64,5 +64,10 @@
             "img": "E.Dminim.jpg",
             "downloads": "[E.Dminim.json, E.Dminim.jpg]"
         },
+
+        "E.Des13":{
+            "img": "E.Des13.jpg",
+            "downloads": "[E.Des13.json, E.Des13.jpg]"
+        },
     }
 }
