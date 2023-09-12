@@ -59,5 +59,10 @@
             "img": "E.Des6.jpg",
             "downloads": "[E.Des6.json, building.otf, SpicyRice-Regular.ttf, E.Des6.jpg]"
         },
+
+        "E.Dminim":{
+            "img": "E.Dminim.jpg",
+            "downloads": "[E.Dminim.json, E.Dminim.jpg]"
+        },
     }
 }
