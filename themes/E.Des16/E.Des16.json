@@ -1,0 +1,205 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "Parent" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "100",
+          "x" : "center",
+          "width" : "351",
+          "height" : "440"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "Today's" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "54",
+              "x" : "center",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Today’s",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "Helvetica",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "Calendar" : {
+            "frame" : {
+              "y" : "317",
+              "x" : "161",
+              "width" : "27",
+              "height" : "27"
+            },
+            "contentMode" : "scaleToFill",
+            "imageURL" : "Calendar2.png",
+            "type" : "UIImageView"
+          },
+          "MonthShort" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "336",
+              "x" : "center",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "3",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[shortmonth]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "Helvetica-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "Today" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "75",
+              "x" : "center",
+              "width" : "300",
+              "height" : "70"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "borderWidth" : "0",
+            "fontSize" : "35",
+            "fontName" : "Helvetica-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "DateTimeblock" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "frame" : {
+              "y" : "155",
+              "x" : "center",
+              "width" : "350",
+              "height" : "145"
+            },
+            "backgroundColor" : "rgba(255, 255, 255, 1.0)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "borderWidth" : "0",
+            "children" : {
+              "DateTimestring" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "45",
+                  "x" : "center",
+                  "width" : "360",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(0, 0, 0, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[date] : [paddedhour] : [minute]",
+                "borderWidth" : "0",
+                "fontSize" : "45",
+                "fontName" : "PingFangSC-Semibold",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "DateText" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "80",
+                  "x" : "center",
+                  "width" : "280",
+                  "height" : "50"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(237, 108, 89, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "Date                     Hour                     Mins",
+                "borderWidth" : "0",
+                "fontSize" : "12",
+                "fontName" : "Helvetica",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              }
+            },
+            "boxShadow" : {
+              "y" : "2",
+              "color" : "rgba(0, 0, 0, 1.0)",
+              "x" : "2",
+              "radius" : "5"
+            },
+            "cornerRadius" : "15",
+            "blurColor" : "dark"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
