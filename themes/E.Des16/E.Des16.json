@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
-      "height" : "screen_height",
       "userInteractionEnabled" : "NO",
       "x" : "0",
-      "width" : "screen_width"
+      "width" : "screen_width",
+      "height" : "screen_height"
     },
     "children" : {
       "Parent" : {
@@ -20,8 +20,8 @@
           "height" : "440"
         },
         "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-        "blurAlpha" : "0",
         "type" : "UIView",
+        "blurAlpha" : "0",
         "borderWidth" : "0",
         "children" : {
           "Today's" : {
@@ -124,29 +124,81 @@
               "height" : "145"
             },
             "backgroundColor" : "rgba(255, 255, 255, 1.0)",
-            "blurAlpha" : "0",
             "type" : "UIView",
+            "blurAlpha" : "0",
             "borderWidth" : "0",
             "children" : {
-              "DateTimestring" : {
-                "borderColor" : "rgba(255,255,255,1)",
+              "Minutes" : {
+                "borderColor" : "rgba(0, 0, 0, 0.0)",
                 "textStyle" : "none",
                 "textAlignment" : "NSTextAlignmentCenter",
                 "frame" : {
-                  "y" : "45",
-                  "x" : "center",
-                  "width" : "360",
-                  "height" : "40"
+                  "y" : "30",
+                  "x" : "229",
+                  "width" : "80",
+                  "height" : "80"
                 },
                 "kerning" : "0",
                 "backgroundColor" : "rgba(255,255,255,0)",
                 "textColor" : "rgba(0, 0, 0, 1.0)",
                 "type" : "UILabel",
                 "numberOfLines" : "1",
-                "data" : "[date] : [paddedhour] : [minute]",
-                "borderWidth" : "0",
-                "fontSize" : "45",
-                "fontName" : "PingFangSC-Semibold",
+                "data" : "[minute]",
+                "borderWidth" : "1",
+                "fontSize" : "50",
+                "fontName" : "Helvetica-Bold",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0, 0, 0, 0.0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "DateValue" : {
+                "borderColor" : "rgba(0, 0, 0, 0.0)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "40",
+                  "x" : "49",
+                  "width" : "60",
+                  "height" : "60"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(237, 108, 89, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[date]",
+                "borderWidth" : "1",
+                "fontSize" : "50",
+                "fontName" : "Helvetica-Bold",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "Hours" : {
+                "borderColor" : "rgba(0, 0, 0, 0.0)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "40",
+                  "x" : "144",
+                  "width" : "60",
+                  "height" : "60"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(0, 0, 0, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[paddedhour]",
+                "borderWidth" : "1",
+                "fontSize" : "50",
+                "fontName" : "Helvetica-Bold",
                 "textShadow" : {
                   "y" : "3",
                   "color" : "rgba(0,0,0,0)",
@@ -166,12 +218,64 @@
                 },
                 "kerning" : "0",
                 "backgroundColor" : "rgba(255,255,255,0)",
-                "textColor" : "rgba(237, 108, 89, 1.0)",
+                "textColor" : "rgba(0, 0, 0, 1.0)",
                 "type" : "UILabel",
                 "numberOfLines" : "1",
                 "data" : "Date                     Hour                     Mins",
                 "borderWidth" : "0",
                 "fontSize" : "12",
+                "fontName" : "Helvetica",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "2dots2" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "50",
+                  "x" : "145",
+                  "width" : "150",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(0, 0, 0, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : ":",
+                "borderWidth" : "0",
+                "fontSize" : "40",
+                "fontName" : "Helvetica",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "2dots" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "50",
+                  "x" : "50",
+                  "width" : "150",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(0, 0, 0, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : ":",
+                "borderWidth" : "0",
+                "fontSize" : "40",
                 "fontName" : "Helvetica",
                 "textShadow" : {
                   "y" : "3",
