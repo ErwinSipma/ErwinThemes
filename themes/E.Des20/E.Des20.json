@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "height" : "screen_height",
       "userInteractionEnabled" : "NO",
       "x" : "0",
-      "width" : "screen_width",
-      "height" : "screen_height"
+      "width" : "screen_width"
     },
     "children" : {
       "parent" : {
@@ -17,7 +17,7 @@
           "y" : "FB~0",
           "x" : "center",
           "width" : "screen_width",
-          "height" : "176"
+          "height" : "189"
         },
         "backgroundColor" : "rgba(0, 0, 0, 0.7)",
         "blurAlpha" : "2",
@@ -30,7 +30,7 @@
             "borderColor" : "rgba(255,255,255,0)",
             "rotate" : "0",
             "frame" : {
-              "y" : "95",
+              "y" : "110",
               "x" : "24",
               "width" : "77",
               "height" : "7"
@@ -42,16 +42,16 @@
             "borderWidth" : "0",
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
           },
           "Signal" : {
             "frame" : {
-              "y" : "116",
+              "y" : "129",
               "x" : "306",
               "width" : "20",
               "height" : "19"
@@ -65,7 +65,7 @@
             "textStyle" : "none",
             "textAlignment" : "NSTextAlignmentCenter",
             "frame" : {
-              "y" : "124",
+              "y" : "136",
               "x" : "302",
               "width" : "150",
               "height" : "40"
@@ -82,9 +82,9 @@
             "fontName" : "Helvetica-Bold",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             }
           },
           "Wifipercent" : {
@@ -92,7 +92,7 @@
             "textStyle" : "none",
             "textAlignment" : "NSTextAlignmentCenter",
             "frame" : {
-              "y" : "124",
+              "y" : "136",
               "x" : "271",
               "width" : "150",
               "height" : "40"
@@ -109,9 +109,9 @@
             "fontName" : "Helvetica-Bold",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             }
           },
           "Date" : {
@@ -136,6 +136,33 @@
             "fontName" : "Groovy_Fast.ttf",
             "textShadow" : {
               "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "Time" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "72",
+              "x" : "24",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "13",
+            "fontName" : "Helvetica",
+            "textShadow" : {
+              "y" : "3",
               "radius" : "3",
               "x" : "0",
               "color" : "rgba(0,0,0,0)"
@@ -146,7 +173,7 @@
             "lowColor" : "rgba(255,0,0,1.0)",
             "backColor" : "rgba(255,255,255,1.0)",
             "frame" : {
-              "y" : "120",
+              "y" : "133",
               "x" : "366",
               "width" : "20",
               "height" : "12"
@@ -177,9 +204,9 @@
             "fontName" : "Helvetica",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             }
           },
           "WeatherString" : {
@@ -187,7 +214,7 @@
             "textStyle" : "uppercase",
             "textAlignment" : "NSTextAlignmentLeft",
             "frame" : {
-              "y" : "109",
+              "y" : "121",
               "x" : "25",
               "width" : "149",
               "height" : "50"
@@ -204,14 +231,14 @@
             "fontName" : "Helvetica",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             }
           },
           "Wifi" : {
             "frame" : {
-              "y" : "118",
+              "y" : "131",
               "x" : "305",
               "width" : "80",
               "height" : "14"
@@ -225,7 +252,7 @@
             "textStyle" : "none",
             "textAlignment" : "NSTextAlignmentCenter",
             "frame" : {
-              "y" : "124",
+              "y" : "136",
               "x" : "241",
               "width" : "150",
               "height" : "40"
@@ -242,17 +269,17 @@
             "fontName" : "Helvetica-Bold",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             }
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
