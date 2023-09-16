@@ -1,0 +1,305 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "children" : {
+      "ParentView" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255, 255, 255, 1.0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "160",
+          "x" : "center",
+          "width" : "346",
+          "height" : "590"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.2)",
+        "blurAlpha" : "0.6",
+        "type" : "UIView",
+        "gradientImage" : "none",
+        "borderWidth" : "1",
+        "children" : {
+          "ximage" : {
+            "frame" : {
+              "y" : "370",
+              "x" : "113",
+              "width" : "120",
+              "height" : "120"
+            },
+            "contentMode" : "scaleAspectFit",
+            "imageURL" : "x.png",
+            "type" : "UIImageView"
+          },
+          "Battery" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "-107",
+              "x" : "center",
+              "width" : "595",
+              "height" : "480"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[ischarging], currently [batterypercent]%",
+            "borderWidth" : "0",
+            "gradientImage" : "orange.png",
+            "fontSize" : "17",
+            "fontName" : "AvenirNext-Medium",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)",
+              "x" : "1",
+              "radius" : "3"
+            }
+          },
+          "Weather" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "-130",
+              "x" : "center",
+              "width" : "595",
+              "height" : "480"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[condition] \/ [temperature][degreeSymbol]",
+            "borderWidth" : "0",
+            "gradientImage" : "orange.png",
+            "fontSize" : "17",
+            "fontName" : "AvenirNext-Medium",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)",
+              "x" : "1",
+              "radius" : "3"
+            }
+          },
+          "TimeString" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "245",
+              "x" : "center",
+              "width" : "290",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255, 255, 255, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[textHour]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "30",
+            "fontName" : "Elevate_PersonalUse.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "MinuteString" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "282",
+              "x" : "center",
+              "width" : "290",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255, 255, 255, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[textMinute]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "30",
+            "fontName" : "Elevate_PersonalUse.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "Todayis" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "365",
+              "x" : "center",
+              "width" : "150",
+              "height" : "35"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Today is",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "18",
+            "fontName" : "AvenirNext-Medium",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "Year" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "56",
+              "x" : "center",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[year]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "AvenirNext-Medium",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "Today" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "186",
+              "x" : "center",
+              "width" : "595",
+              "height" : "480"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "borderWidth" : "0",
+            "gradientImage" : "orange.png",
+            "fontSize" : "50",
+            "fontName" : "awesomeseason.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)",
+              "x" : "1",
+              "radius" : "3"
+            }
+          },
+          "WelcomeMessage" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "305",
+              "x" : "center",
+              "width" : "595",
+              "height" : "480"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Hey [devicename] have a nice day!",
+            "borderWidth" : "0",
+            "gradientImage" : "orange.png",
+            "fontSize" : "17",
+            "fontName" : "AvenirNext-Medium",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "MonthDate" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "-190",
+              "x" : "center",
+              "width" : "595",
+              "height" : "480"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[month] [date]",
+            "borderWidth" : "0",
+            "gradientImage" : "orange.png",
+            "fontSize" : "25",
+            "fontName" : "AvenirNext-Medium",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "WeatherIcon" : {
+            "frame" : {
+              "y" : "170",
+              "x" : "center",
+              "width" : "60",
+              "height" : "60"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "MonolyphFlat"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "light"
+      }
+    }
+  }
+}
