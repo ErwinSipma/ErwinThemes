@@ -1,0 +1,175 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "Parent" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "FB~250",
+          "x" : "center",
+          "width" : "360",
+          "height" : "166"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "children" : {
+          "Battery" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "86",
+              "x" : "5",
+              "width" : "290",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(235, 235, 235, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "battery  |  [batterypercent]%",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "22",
+            "fontName" : "Helvetica-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "Hello!" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "42",
+              "x" : "3",
+              "width" : "230",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(235, 235, 235, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "hello",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "50",
+            "fontName" : "ArialRoundedMTBold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "Weather2" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "126",
+              "x" : "7",
+              "width" : "350",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(214, 214, 214, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Wind speed [windspeed] [windunit] & current humidity [humidity]% in [city].",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "12",
+            "fontName" : "ArialMT",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "TimeMonthDate" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "0",
+              "x" : "5",
+              "width" : "290",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(235, 235, 235, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[time] | [shortmonth] | [dateordinal]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "22",
+            "fontName" : "Helvetica-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "Weather1" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "112",
+              "x" : "7",
+              "width" : "334",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(214, 214, 214, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "It’s [condition] and the temperature feels like [temperature][degreeSymbol][temptype] outside.",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "12",
+            "fontName" : "ArialMT",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
