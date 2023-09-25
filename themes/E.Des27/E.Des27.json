@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "userInteractionEnabled" : "NO",
       "x" : "0",
       "width" : "screen_width",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "height" : "screen_height"
     },
     "children" : {
       "Parent" : {
@@ -15,7 +15,7 @@
         "rotate" : "0",
         "actions" : "none",
         "frame" : {
-          "y" : "100",
+          "y" : "FB~30",
           "x" : "center",
           "width" : "400",
           "height" : "761"
@@ -82,17 +82,17 @@
                     "fontName" : "Suissnord.otf",
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     }
                   }
                 },
                 "boxShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "cornerRadius" : "30",
                 "blurColor" : "dark"
@@ -119,9 +119,9 @@
                 "fontName" : "Suissnord.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "MonthYear" : {
@@ -146,9 +146,9 @@
                 "fontName" : "Suissnord.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "AppsBackground" : {
@@ -207,17 +207,17 @@
                         "fontName" : "Suissnord.otf",
                         "textShadow" : {
                           "y" : "3",
-                          "radius" : "3",
+                          "color" : "rgba(0,0,0,0)",
                           "x" : "0",
-                          "color" : "rgba(0,0,0,0)"
+                          "radius" : "3"
                         }
                       }
                     },
                     "boxShadow" : {
                       "y" : "3",
-                      "radius" : "3",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "3"
                     },
                     "cornerRadius" : "18",
                     "blurColor" : "dark"
@@ -241,8 +241,8 @@
                     "children" : {
                       "App3_1" : {
                         "alpha" : "1",
-                        "labelColor" : "rgba(255, 255, 255, 0.0)",
-                        "bundleID" : "com.tigisoftware.Filza",
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "scale" : "0",
                         "frame" : {
                           "y" : "0",
                           "x" : "160",
@@ -252,14 +252,14 @@
                         "contentMode" : "scaleAspectFit",
                         "badgeBGColor" : "rgba(235, 235, 235, 1.0)",
                         "type" : "AppIcon",
+                        "labelColor" : "rgba(255, 255, 255, 0.0)",
                         "badgeTextColor" : "rgba(0, 0, 0, 1.0)",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "scale" : "0"
+                        "bundleID" : "com.tigisoftware.Filza"
                       },
                       "App4_1" : {
                         "alpha" : "1",
-                        "labelColor" : "rgba(255, 255, 255, 0.0)",
-                        "bundleID" : "com.spotify.client",
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "scale" : "0",
                         "frame" : {
                           "y" : "0",
                           "x" : "240",
@@ -269,14 +269,14 @@
                         "contentMode" : "scaleAspectFit",
                         "badgeBGColor" : "rgba(235, 235, 235, 1.0)",
                         "type" : "AppIcon",
+                        "labelColor" : "rgba(255, 255, 255, 0.0)",
                         "badgeTextColor" : "rgba(0, 0, 0, 1.0)",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "scale" : "0"
+                        "bundleID" : "com.spotify.client"
                       },
                       "App1_1" : {
                         "alpha" : "1",
-                        "labelColor" : "rgba(255, 255, 255, 0.0)",
-                        "bundleID" : "com.facebook.Facebook",
+                        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+                        "scale" : "0",
                         "frame" : {
                           "y" : "0",
                           "x" : "0",
@@ -286,14 +286,14 @@
                         "contentMode" : "scaleAspectFit",
                         "badgeBGColor" : "rgba(235, 235, 235, 1.0)",
                         "type" : "AppIcon",
+                        "labelColor" : "rgba(255, 255, 255, 0.0)",
                         "badgeTextColor" : "rgba(0, 0, 0, 1.0)",
-                        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-                        "scale" : "0"
+                        "bundleID" : "com.facebook.Facebook"
                       },
                       "App2_1" : {
                         "alpha" : "1",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "scale" : "0",
+                        "badgeTextColor" : "rgba(0, 0, 0, 1.0)",
+                        "bundleID" : "com.apple.mobilemail",
                         "frame" : {
                           "y" : "0",
                           "x" : "80",
@@ -304,15 +304,15 @@
                         "badgeBGColor" : "rgba(235, 235, 235, 1.0)",
                         "type" : "AppIcon",
                         "labelColor" : "rgba(255, 255, 255, 0.0)",
-                        "badgeTextColor" : "rgba(0, 0, 0, 1.0)",
-                        "bundleID" : "com.apple.mobilemail"
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "scale" : "0"
                       }
                     },
                     "boxShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "cornerRadius" : "5",
                     "blurColor" : "dark"
@@ -336,8 +336,8 @@
                     "children" : {
                       "App4" : {
                         "alpha" : "1",
-                        "labelColor" : "rgba(255, 255, 255, 0.0)",
-                        "bundleID" : "com.hammerandchisel.discord",
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "scale" : "0",
                         "frame" : {
                           "y" : "0",
                           "x" : "240",
@@ -347,14 +347,14 @@
                         "contentMode" : "scaleAspectFit",
                         "badgeBGColor" : "rgba(235, 235, 235, 1.0)",
                         "type" : "AppIcon",
+                        "labelColor" : "rgba(255, 255, 255, 0.0)",
                         "badgeTextColor" : "rgba(0, 0, 0, 1.0)",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "scale" : "0"
+                        "bundleID" : "com.hammerandchisel.discord"
                       },
                       "App2" : {
                         "alpha" : "1",
-                        "labelColor" : "rgba(255, 255, 255, 0.0)",
-                        "bundleID" : "com.apple.mobilesafari",
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "scale" : "0",
                         "frame" : {
                           "y" : "0",
                           "x" : "80",
@@ -364,14 +364,14 @@
                         "contentMode" : "scaleAspectFit",
                         "badgeBGColor" : "rgba(235, 235, 235, 1.0)",
                         "type" : "AppIcon",
+                        "labelColor" : "rgba(255, 255, 255, 0.0)",
                         "badgeTextColor" : "rgba(0, 0, 0, 1.0)",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "scale" : "0"
+                        "bundleID" : "com.apple.mobilesafari"
                       },
                       "App3" : {
                         "alpha" : "1",
-                        "labelColor" : "rgba(255, 255, 255, 0.0)",
-                        "bundleID" : "com.apple.Preferences",
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "scale" : "0",
                         "frame" : {
                           "y" : "0",
                           "x" : "160",
@@ -381,14 +381,14 @@
                         "contentMode" : "scaleAspectFit",
                         "badgeBGColor" : "rgba(235, 235, 235, 1.0)",
                         "type" : "AppIcon",
+                        "labelColor" : "rgba(255, 255, 255, 0.0)",
                         "badgeTextColor" : "rgba(0, 0, 0, 1.0)",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "scale" : "0"
+                        "bundleID" : "com.apple.Preferences"
                       },
                       "App1" : {
                         "alpha" : "1",
-                        "labelColor" : "rgba(255, 255, 255, 0.0)",
-                        "bundleID" : "com.apple.mobilephone",
+                        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+                        "scale" : "0",
                         "frame" : {
                           "y" : "0",
                           "x" : "0",
@@ -398,16 +398,16 @@
                         "contentMode" : "scaleAspectFit",
                         "badgeBGColor" : "rgba(235, 235, 235, 1.0)",
                         "type" : "AppIcon",
+                        "labelColor" : "rgba(255, 255, 255, 0.0)",
                         "badgeTextColor" : "rgba(0, 0, 0, 1.0)",
-                        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-                        "scale" : "0"
+                        "bundleID" : "com.apple.mobilephone"
                       }
                     },
                     "boxShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "cornerRadius" : "5",
                     "blurColor" : "dark"
@@ -415,9 +415,9 @@
                 },
                 "boxShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
                 "cornerRadius" : "20",
                 "blurColor" : "dark"
@@ -425,9 +425,9 @@
             },
             "boxShadow" : {
               "y" : "2",
-              "radius" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "3"
             },
             "cornerRadius" : "30",
             "blurColor" : "dark"
@@ -485,17 +485,17 @@
                 "fontName" : "Suissnord.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 }
               }
             },
             "boxShadow" : {
               "y" : "2",
-              "radius" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "3"
             },
             "cornerRadius" : "30",
             "blurColor" : "dark"
@@ -517,33 +517,6 @@
             "gradientImage" : "none",
             "borderWidth" : "10",
             "children" : {
-              "AmPm" : {
-                "borderColor" : "rgba(255,255,255,1)",
-                "textStyle" : "none",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "frame" : {
-                  "y" : "25",
-                  "x" : "center",
-                  "width" : "330",
-                  "height" : "140"
-                },
-                "kerning" : "0",
-                "backgroundColor" : "rgba(255,255,255,0)",
-                "textColor" : "rgba(112, 112, 112, 1.0)",
-                "type" : "UILabel",
-                "numberOfLines" : "1",
-                "data" : "[ampm]",
-                "borderWidth" : "0",
-                "gradientImage" : "none",
-                "fontSize" : "15",
-                "fontName" : "Suissnord.otf",
-                "textShadow" : {
-                  "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
-                  "x" : "0",
-                  "radius" : "3"
-                }
-              },
               "Time" : {
                 "borderColor" : "rgba(255,255,255,1)",
                 "textStyle" : "none",
@@ -566,17 +539,44 @@
                 "fontName" : "Suissnord.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
+                }
+              },
+              "AmPm" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "25",
+                  "x" : "center",
+                  "width" : "330",
+                  "height" : "140"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(112, 112, 112, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[ampm]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "15",
+                "fontName" : "Suissnord.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
                 }
               }
             },
             "boxShadow" : {
               "y" : "2",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0, 0, 0, 1.0)"
             },
             "cornerRadius" : "30",
             "blurColor" : "dark"
@@ -620,9 +620,9 @@
                 "fontName" : "Suissnord.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "WeatherIcon" : {
@@ -658,9 +658,9 @@
                 "fontName" : "Suissnord.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 }
               },
               "Low" : {
@@ -685,17 +685,17 @@
                 "fontName" : "Suissnord.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               }
             },
             "boxShadow" : {
               "y" : "2",
-              "radius" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "3"
             },
             "cornerRadius" : "30",
             "blurColor" : "dark"
@@ -703,9 +703,9 @@
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
