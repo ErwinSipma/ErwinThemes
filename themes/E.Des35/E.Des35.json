@@ -1,0 +1,338 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "Parent" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~60",
+          "x" : "center",
+          "width" : "320",
+          "height" : "320"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 1.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "BatteryBar" : {
+            "radius" : "4",
+            "lowColor" : "rgba(255,0,0,1.0)",
+            "backColor" : "rgba(214, 214, 214, 1.0)",
+            "frame" : {
+              "y" : "210",
+              "x" : "35",
+              "width" : "94",
+              "height" : "8"
+            },
+            "innerColor" : "rgba(0,255,0,1.0)",
+            "type" : "BatteryBar",
+            "midColor" : "rgba(255,153,64,1.0)",
+            "gradientImage" : "Gradient22.png"
+          },
+          "App3" : {
+            "badgeImageY" : "-9",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImage" : "black_x.png",
+            "frame" : {
+              "y" : "261",
+              "x" : "250",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.Preferences",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImageX" : "5"
+          },
+          "Welcome_back!" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "30",
+              "x" : "35",
+              "width" : "230",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(51, 51, 51, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Welcome back!",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "25",
+            "fontName" : "Elevate_PersonalUse.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "TimeBox" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "-60",
+              "x" : "10",
+              "width" : "84",
+              "height" : "40"
+            },
+            "backgroundColor" : "rgba(255,255,255,0.3)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "Gradient22.png",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "Time" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "1",
+                  "x" : "center",
+                  "width" : "150",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[paddedtime]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "18",
+                "fontName" : "AvenirNext-Regular",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          },
+          "Battery%" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "194",
+              "x" : "136",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(51, 51, 51, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[batterypercent]%",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "10",
+            "fontName" : "AvenirNext-Regular",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "DrawerBox" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "openDrawer",
+            "frame" : {
+              "y" : "198",
+              "x" : "223",
+              "width" : "52",
+              "height" : "28"
+            },
+            "backgroundColor" : "rgba(255,255,255,0.3)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "Gradient22.png",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "MoreText" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "-6",
+                  "x" : "center",
+                  "width" : "150",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "More",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "13",
+                "fontName" : "AvenirNext-Regular",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "cornerRadius" : "14",
+            "blurColor" : "dark"
+          },
+          "App1" : {
+            "badgeImageY" : "-9",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImage" : "black_x.png",
+            "frame" : {
+              "y" : "261",
+              "x" : "130",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.mobilesafari",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImageX" : "5"
+          },
+          "DateString" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "69",
+              "x" : "35",
+              "width" : "225",
+              "height" : "45"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(51, 51, 51, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "2",
+            "data" : "It's [day] the [dateordinal] in [month] [year].",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "15",
+            "fontName" : "AvenirNext-Regular",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "WeatherString" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "115",
+              "x" : "35",
+              "width" : "181",
+              "height" : "61"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(51, 51, 51, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "4",
+            "data" : "Today's [condition] outside with a temperature of [temperature][degreeSymbol][temptype]. Feels like [feelslike][degreeSymbol][temptype]. Wind speed [windspeed] [windunit] from [winddirection] and current humidity is [humidity]%. Have a nice day!",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "9",
+            "fontName" : "AvenirNext-Regular",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "App2" : {
+            "badgeImageY" : "-9",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImage" : "black_x.png",
+            "frame" : {
+              "y" : "261",
+              "x" : "190",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.hammerandchisel.discord",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImageX" : "5"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(255, 255, 255, 0.0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "10",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
