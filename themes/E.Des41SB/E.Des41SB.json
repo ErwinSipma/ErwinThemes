@@ -1,0 +1,385 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "Parent" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~40",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "660"
+        },
+        "backgroundColor" : "rgba(0, 0, 0, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "App5" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "frame" : {
+              "y" : "377",
+              "x" : "222",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.mobilesafari",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "Boots_AlertBadgeWht.png"
+          },
+          "App1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "frame" : {
+              "y" : "57",
+              "x" : "222",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.toyopagroup.picaboo",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "Boots_AlertBadgeWht.png"
+          },
+          "App4" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "frame" : {
+              "y" : "297",
+              "x" : "222",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.mobilemail",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "Boots_AlertBadgeWht.png"
+          },
+          "WeatherIcon" : {
+            "frame" : {
+              "y" : "-42",
+              "x" : "124",
+              "width" : "80",
+              "height" : "80"
+            },
+            "forecast" : "day1",
+            "type" : "WeatherIcon",
+            "iconSet" : "climacut"
+          },
+          "Hello" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "410",
+              "x" : "-10",
+              "width" : "204",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(194, 194, 194, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Hello!",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "Helvetica",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "App3" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImage" : "Boots_AlertBadgeWht.png",
+            "frame" : {
+              "y" : "217",
+              "x" : "222",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.tigisoftware.Filza",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImageX" : "0"
+          },
+          "App7" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "frame" : {
+              "y" : "537",
+              "x" : "222",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.hammerandchisel.discord",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "Boots_AlertBadgeWht.png"
+          },
+          "Time" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "550",
+              "x" : "-10",
+              "width" : "204",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(194, 194, 194, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedtime]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "Helvetica",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "App6" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "frame" : {
+              "y" : "457",
+              "x" : "222",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.Preferences",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "Boots_AlertBadgeWht.png"
+          },
+          "It's" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "445",
+              "x" : "-10",
+              "width" : "204",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(194, 194, 194, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "It's",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "28",
+            "fontName" : "Helvetica-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "Date" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "515",
+              "x" : "-10",
+              "width" : "204",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(194, 194, 194, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[dateordinal]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "28",
+            "fontName" : "Helvetica-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "App2" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "frame" : {
+              "y" : "137",
+              "x" : "222",
+              "width" : "45",
+              "height" : "45"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "net.whatsapp.WhatsApp",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "Boots_AlertBadgeWht.png"
+          },
+          "WeatherRotateParent" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "90",
+            "actions" : "none",
+            "frame" : {
+              "y" : "197",
+              "x" : "-33",
+              "width" : "373",
+              "height" : "101"
+            },
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "ConditionTemp" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "lowercase",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "350",
+                  "height" : "40"
+                },
+                "kerning" : "8",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(194, 194, 194, 1.00)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[condition] - [temperature][degreeSymbol][temptype]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "20",
+                "fontName" : "Helvetica",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                }
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          },
+          "Today" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "480",
+              "x" : "-10",
+              "width" : "204",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(134, 185, 83, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "28",
+            "fontName" : "Helvetica-Bold",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "0",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
