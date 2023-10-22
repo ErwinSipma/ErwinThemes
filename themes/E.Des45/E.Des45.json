@@ -1,0 +1,166 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "Parent" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~300",
+          "x" : "center",
+          "width" : "350",
+          "height" : "450"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "Battery" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "221",
+              "x" : "27",
+              "width" : "300",
+              "height" : "40"
+            },
+            "kerning" : "4",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "- [batterypercent]% -",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "10",
+            "fontName" : "Groovy_Fast.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "TodayShort" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "50",
+              "x" : "center",
+              "width" : "350",
+              "height" : "160"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[shortday]",
+            "borderWidth" : "0",
+            "gradientImage" : "gradient2.png",
+            "fontSize" : "250",
+            "fontName" : "OneBrush.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "Date" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "185",
+              "x" : "27",
+              "width" : "300",
+              "height" : "40"
+            },
+            "kerning" : "4",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "- [dateordinal] of [month] -",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "15",
+            "fontName" : "Groovy_Fast.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "Time" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "25",
+              "x" : "27",
+              "width" : "300",
+              "height" : "40"
+            },
+            "kerning" : "4",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "- [paddedhour]:[minute][ampm] -",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "15",
+            "fontName" : "Groovy_Fast.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "BatteryBar" : {
+            "radius" : "3",
+            "lowColor" : "rgba(255,0,0,1.0)",
+            "backColor" : "rgba(92, 92, 92, 1.00)",
+            "frame" : {
+              "y" : "225",
+              "x" : "center",
+              "width" : "160",
+              "height" : "6"
+            },
+            "gradientImage" : "gradient2.png",
+            "type" : "BatteryBar",
+            "midColor" : "rgba(255,153,64,1.0)",
+            "innerColor" : "rgba(0,255,0,1.0)"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
